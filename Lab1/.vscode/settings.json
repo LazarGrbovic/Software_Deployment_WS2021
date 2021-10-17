@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/52ff6c7d-415c-40e5-bead-3d061ffe6111/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/Lab1LazarGrbovicWebApp",
+    "appService.deploySubpath": "Lab1LazarGrbovicWebApp"
+}
