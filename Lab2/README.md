@@ -13,6 +13,11 @@ Welcome to the Lab 2 Tutorial
 # Links
 
 <br>
+
+* https://lab2lazargrbovic-release.azurewebsites.net/
+* https://lab2lazargrbovic.azurewebsites.net/
+
+<br>
 <hr>
 <br>
 
