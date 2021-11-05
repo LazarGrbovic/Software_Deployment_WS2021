@@ -6,6 +6,9 @@
   * [Build/Test/Deploy Pipeline including successful and failed Deployments](#id-Build_Test_Deploy_Pipeline_including_successful_and_failed_Deployments)
   * [Development Pipeline](#id-DevelopmentPipeline) 
   * [ReleasePipeline](#id-ReleasePipeline)
+* [How The Releases Are Released](#id-HowTheReleasesAreReleased)
+  * [Development Pipeline](#id-DevelopmentPipeline)
+  * [Release Pipeline](#id-ReleasePipeline)
 
 <br>
 
@@ -47,3 +50,21 @@
 
 ## Release Pipeline <div id="id-ReleasePipeline">
 ![](https://github.com/LazarGrbovic/Software_Deployment_WS2021/blob/main/Lab2/Screenshots/Release_Pipeline.png)
+
+<br>
+<hr>
+<br>
+
+# How The Releases Are Released <div id="id-HowTheReleasesAreReleased>
+
+<br>
+
+## Development Pipeline <div id="id-DevelopmentPipeline">
+
+Each commit that passes the tests is automatically released
+
+<br>
+
+## Release Pipeline <div id="id-ReleasePipeline">
+
+Here, the release is picked manually from the list under the tab `Releases`, and then the user can click on the `Create Release`  
