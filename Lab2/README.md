@@ -7,8 +7,8 @@
   * [Development Pipeline](#id-DevelopmentPipeline) 
   * [ReleasePipeline](#id-ReleasePipeline)
 * [How The Releases Are Released](#id-HowTheReleasesAreReleased)
-  * [Development Pipeline](#id-DevelopmentPipeline)
-  * [Release Pipeline](#id-ReleasePipeline)
+  * [Development Pipeline](#id-DevelopmentPipelineRelease)
+  * [Release Pipeline](#id-ReleasePipelineRelease)
 
 <br>
 
@@ -59,12 +59,12 @@
 
 <br>
 
-## Development Pipeline <div id="id-DevelopmentPipeline">
+## Development Pipeline <div id="id-DevelopmentPipelineRelease">
 
 Each commit that passes the tests is automatically released
 
 <br>
 
-## Release Pipeline <div id="id-ReleasePipeline">
+## Release Pipeline <div id="id-ReleasePipelineRelease">
 
 Here, the release is picked manually from the list under the tab `Releases`, and then the user can click on the `Create Release`  
