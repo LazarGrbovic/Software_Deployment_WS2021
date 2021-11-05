@@ -55,7 +55,7 @@
 <hr>
 <br>
 
-# How The Releases Are Released <div id="id-HowTheReleasesAreReleased>
+# How The Releases Are Released <div id="id-HowTheReleasesAreReleased">
 
 <br>
 
