@@ -1,16 +1,21 @@
-# README
+# Table Of Contents
 
-Welcome to the Lab 2 Tutorial
+* [Description](#id-Description) <br>
+* [Links](#id-Links)
+* [Screenshots](#id-Screenshots)
+  * [Build/Test/Deploy Pipeline including successful and failed Deployments](#id-Build_Test_Deploy_Pipeline_including_successful_and_failed_Deployments)
+  * [Development Pipeline](#id-DevelopmentPipeline) 
+  * [ReleasePipeline](#id-ReleasePipeline)
 
 <br>
 
-# Description
+# Description <div id="id-Description">
 
 <br>
 <hr>
 <br>
 
-# Links
+# Links <div id="id-Links">
 
 <br>
 
@@ -25,20 +30,20 @@ Welcome to the Lab 2 Tutorial
 <hr>
 <br>
 
-# Screenshots
+# Screenshots <div id="id-Screenshots">
 
 
-## Build/Test/Deploy Pipeline including successful and failed Deployments 
+## Build/Test/Deploy Pipeline including successful and failed Deployments <div id="id-Build_Test_Deploy_Pipeline_including_successful_and_failed_Deployments"> 
 
 ![](https://github.com/LazarGrbovic/Software_Deployment_WS2021/blob/main/Lab2/Screenshots/Build_Test_Deploy_Pipeline_And_Successful_Failed_Deployments.png)
 
 <br>
 
-## Development Pipeline
+## Development Pipeline <div id="id-DevelopmentPipeline">
 
 ![](https://github.com/LazarGrbovic/Software_Deployment_WS2021/blob/main/Lab2/Screenshots/Development_Pipeline.png)
 
 <br>
 
-## Release Pipeline
+## Release Pipeline <div id="id-ReleasePipeline">
 ![](https://github.com/LazarGrbovic/Software_Deployment_WS2021/blob/main/Lab2/Screenshots/Release_Pipeline.png)
