@@ -1,0 +1,21 @@
+version: "3"
+services:
+  database:
+    build: ./MySQL
+    image: mysqlimage
+    restart: always
+    volumes:
+      - dbdata:/var/lib/mysql
+  wordpress:
+    build: ./WordPress
+    image: mywordpressimage
+    depends_on:
+      - database
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - wpdata:/var/www/html"
+volumes:
+  dbdata: {}
+  wpdata: {}
