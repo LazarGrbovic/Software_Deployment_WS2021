@@ -1,0 +1,7 @@
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=mysqldb
+resources:
+  - mysql-docker-compose.yaml
+  - wordpress-docker-compose.yaml   
