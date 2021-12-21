@@ -34,3 +34,23 @@ The following are commands that were needed for Lab 4:
       * *NOTE:* This command needs to be run from the project folder, hence the `./` to indicate everything in the current work directoy
 6. Validate that the created Wordpress Service is running:
    * `kubecetl get services wordpress` 
+
+## Screenshots
+
+<br>
+
+Verification of the Kubernetes Cluster
+
+![](https://https://github.com/LazarGrbovic/Software_Deployment_WS2021/blob/main/Lab4/Screenshots/Kubectl_Get_Nodes.png)
+
+<br>
+
+Running the `kustomization.yaml` file
+
+![](https://https://github.com/LazarGrbovic/Software_Deployment_WS2021/blob/main/Lab4/Screenshots/Kubcetl_Apply_-k.png)
+
+<br>
+
+Validating that the created Wordpress Service is running
+
+![](https://https://github.com/LazarGrbovic/Software_Deployment_WS2021/blob/main/Lab4/Screenshots/Kubectl_Get_Services_Wordpress.png)
