@@ -1,4 +1,17 @@
-# Lab3
+# Table of Contents
+
+* [Lab3 - Introduction](#id-Lab3Introduction)
+* [Part 1](#id-Part1)
+  * [Docker Compose File](#id-DockerComposeFile1)
+  * [Docker Commands](#id-DockerCommands)
+* [Part 2](#id-Part2)
+  * [Docker Compose File](#id-DockerComposeFile2)
+  * [Required Steps](#id-RequiredSteps)
+
+
+<br>
+
+# Lab3 <div id="id-Lab3Introduction">
 
 Deploy the software "Wordpress" with external MySQL DB in 2 containers. This task consists of 2 parts.
 
@@ -7,7 +20,7 @@ Deploy the software "Wordpress" with external MySQL DB in 2 containers. This tas
 <br>
 
 
-# Part 1
+# Part 1 <div id="id-Part1">
 
 Creation of a Docker Compose file which uses Wordpress and MySQL images to set up a Wordpress container infrastructure.
 
@@ -15,7 +28,7 @@ Creation of a Docker Compose file which uses Wordpress and MySQL images to set u
 <hr>
 <br>
 
-## Docker Compose File
+## Docker Compose File <div id="id-DockerComposeFile1">
 
 <br>
 
@@ -36,7 +49,7 @@ The following is the structure of the `docker-compose.yml`:
 <hr>
 <br>
 
-## Docker Commands
+## Docker Commands <div id="id-DockerCommands"> 
 
 The following is the list of the Docker commands which need to be used:
 
@@ -51,7 +64,7 @@ The following is the list of the Docker commands which need to be used:
 <hr>
 <br>
 
-# Part 2 
+# Part 2 <div id="id-Part2">
 
 
 Creation of custom images based on debian for a wordpress container installation. 
@@ -60,7 +73,7 @@ Creation of custom images based on debian for a wordpress container installation
 <hr>
 <br>
 
-## Docker Compose File
+## Docker Compose File <div id="id-DockerComposeFile2">
 
 The Docker Compose File contains the same structure as in the Part 1:
 
@@ -74,7 +87,7 @@ TODO Describe the 2 Dockerfiles (Wordpress and Database)
 <hr>
 <br>
 
-## Required Steps
+## Required Steps <div id="id-RequiredSteps">
 
 * Since we are creating custom images, we need to also create two folders for our services called `MySQL` and `WordPress`
   * Both folders need to contain the `Dockerfile`
