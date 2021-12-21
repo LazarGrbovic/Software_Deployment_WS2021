@@ -38,30 +38,36 @@ The following are commands that were needed for Lab 4:
    * `az aks create --resource-group *YourResourceGroup* --name *YourAKSCluster* --node-count 1 --enable-addons monitoring --generate--ssh-keys`
 3. Connecting to Kubernetes Cluster:
    * `az aks get-credentials --resource-group *YourResourceGroup* --name *YourAKSCluster*`
-4. [Verify the Connection to the Cluster](id-ValidatingTheCreatedWordpressService):
+4. [Verify the Connection to the Cluster](#id-ValidatingTheCreatedWordpressService):
    * `kubectl get nodes`
      * *NOTE:* The `kubecetl` needs to be installed first: https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/
-5. [The `kustomization.yaml` file needs to be run](id-RunningThekustomizationyamlFile):
+5. [The `kustomization.yaml` file needs to be run](#id-RunningThekustomizationyamlFile):
    * This file contains all resources for deploying a MySQL Database and Wordpress Service
    * `kubectl apply -k ./`
       * *NOTE:* This command needs to be run from the project folder, hence the `./` to indicate everything in the current work directoy
-6. [Validate that the created Wordpress Service is running](id-ValidatingTheCreatedWordpressService):
+6. [Validate that the created Wordpress Service is running](#id-ValidatingTheCreatedWordpressService):
    * `kubecetl get services wordpress` 
 
+<br>
+<hr>
+<br>
+  
 ## Screenshots <div id="id-Screenshots">
 
 <br>
-
+  
 Verification of the Kubernetes Cluster <div id="id-VerificationOfTheKubernetesCluster">
 
 ![](https://github.com/LazarGrbovic/Software_Deployment_WS2021/blob/main/Lab4/Screenshots/Kubectl_Get_Nodes.png)
 
+<br>
 <br>
 
 Running the `kustomization.yaml` file <div id="id-RunningThekustomizationyamlFile">
 
 ![](https://github.com/LazarGrbovic/Software_Deployment_WS2021/blob/main/Lab4/Screenshots/Kubcetl_Apply_-k.png)
 
+<br>
 <br>
 
 Validating that the created Wordpress Service is running <div id="id-ValidatingTheCreatedWordpressService">
