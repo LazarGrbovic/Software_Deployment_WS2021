@@ -68,6 +68,8 @@ The Docker Compose File contains the same structure as in the Part 1:
 * `Services`
 * `Volumes`
 
+TODO Describe the 2 Dockerfiles (Wordpress and Database) 
+
 <br>
 <hr>
 <br>
