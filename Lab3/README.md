@@ -16,7 +16,6 @@
 Deploy the software "Wordpress" with external MySQL DB in 2 containers. This task consists of 2 parts.
 
 <br>
-<hr>
 <br>
 
 
@@ -25,7 +24,6 @@ Deploy the software "Wordpress" with external MySQL DB in 2 containers. This tas
 Creation of a Docker Compose file which uses Wordpress and MySQL images to set up a Wordpress container infrastructure.
 
 <br>
-<hr>
 <br>
 
 ## Docker Compose File <div id="id-DockerComposeFile1">
@@ -46,7 +44,6 @@ The following is the structure of the `docker-compose.yml`:
 
 
 <br>
-<hr>
 <br>
 
 ## Docker Commands <div id="id-DockerCommands"> 
@@ -70,7 +67,6 @@ The following is the list of the Docker commands which need to be used:
 Creation of custom images based on debian for a wordpress container installation. 
 
 <br>
-<hr>
 <br>
 
 ## Docker Compose File <div id="id-DockerComposeFile2">
@@ -84,7 +80,6 @@ The Docker Compose File contains the same structure as in the Part 1:
 TODO Describe the 2 Dockerfiles (Wordpress and Database) 
 
 <br>
-<hr>
 <br>
 
 ## Required Steps <div id="id-RequiredSteps">
